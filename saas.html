@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Notre SaaS — devis, factures, relances et comptabilité — LNEWG</title>
-<meta name="description" content="Le logiciel LNEWG : créez vos devis, transformez-les en factures conformes, laissez les relances clients partir automatiquement et suivez votre comptabilité en temps réel. Essai Master de 7 jours offert." />
+<title>Notre SaaS — LNEWG</title>
+<meta name="description" content="Le logiciel LNEWG pour les artisans du BTP : devis en dictée vocale, factures conformes Factur-X, relances automatiques et comptabilité. Essayez la démo sans inscription." />
 <link rel="canonical" href="https://lnewg.com/saas.html" />
 <link rel="icon" type="image/png" href="assets/lnewg-mark.png" />
 <link rel="apple-touch-icon" href="assets/lnewg-mark.png" />
@@ -13,14 +13,14 @@
 <meta property="og:site_name" content="LNEWG" />
 <meta property="og:locale" content="fr_FR" />
 <meta property="og:url" content="https://lnewg.com/saas.html" />
-<meta property="og:title" content="Notre SaaS — devis, factures, relances et comptabilité — LNEWG" />
-<meta property="og:description" content="Le logiciel LNEWG : créez vos devis, transformez-les en factures conformes, laissez les relances clients partir automatiquement et suivez votre comptabilité en temps réel." />
+<meta property="og:title" content="Notre SaaS — LNEWG" />
+<meta property="og:description" content="Le logiciel LNEWG pour les artisans du BTP : devis en dictée vocale, factures conformes Factur-X, relances automatiques et comptabilité." />
 <meta property="og:image" content="https://lnewg.com/assets/og-image.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Notre SaaS — devis, factures, relances et comptabilité — LNEWG" />
-<meta name="twitter:description" content="Le logiciel LNEWG : créez vos devis, transformez-les en factures conformes, laissez les relances clients partir automatiquement et suivez votre comptabilité en temps réel." />
+<meta name="twitter:title" content="Notre SaaS — LNEWG" />
+<meta name="twitter:description" content="Le logiciel LNEWG pour les artisans du BTP : devis en dictée vocale, factures conformes Factur-X, relances automatiques et comptabilité." />
 <meta name="twitter:image" content="https://lnewg.com/assets/og-image.png" />
 
 <script type="application/ld+json">
@@ -31,7 +31,7 @@
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "Web",
   "url": "https://lnewg.com/saas.html",
-  "description": "Logiciel de gestion devis, factures, relances clients automatiques et comptabilité pour TPE et PME, édité par LNEWG.",
+  "description": "Logiciel de gestion devis, factures, relances clients automatiques et comptabilité pour les artisans du BTP et les PME, édité par LNEWG.",
   "offers": [
     { "@type": "Offer", "name": "Starter", "price": "49.99", "priceCurrency": "EUR", "description": "Devis et factures jusqu'à 5 par mois, réglages essentiels." },
     { "@type": "Offer", "name": "Pro", "price": "89.99", "priceCurrency": "EUR", "description": "Devis et factures illimités, relances automatiques." },
@@ -42,7 +42,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800&family=Space+Grotesk:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800&family=Space+Grotesk:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet" />
 <style>
   *, *::before, *::after { box-sizing: border-box; }
   body { margin: 0; font-family: 'DM Sans', system-ui, sans-serif; background: #0B1220; color: #1A1F2B; -webkit-font-smoothing: antialiased; }
@@ -61,6 +61,265 @@
   .ln-btn-outline:hover { border-color: #3DA5F5; color: #1C6FC9; }
 
   .ln-contact-link:hover { color: #3DA5F5; border-color: #3DA5F5; }
+
+  /* ===== Page content below: "LNEWG pour artisans" ===== */
+  :root {
+    --navy: #0b1220;
+    --navy-soft: #131e36;
+    --navy-line: #24324f;
+    --electric: #3da5f5;
+    --electric-strong: #1c6fc9;
+    --on-navy: #e8eef7;
+    --on-navy-dim: #9fb0c8;
+
+    --bg: #f4f6f9;
+    --surface: #ffffff;
+    --ink: #141a26;
+    --muted: #566274;
+    --line: #dfe4ec;
+    --accent: #1c6fc9;
+    --accent-soft: #e6f1fc;
+    --paper: #ffffff;
+    --paper-ink: #1a1f2b;
+    --paper-muted: #6b7686;
+    --paper-line: #e6e9ef;
+    --good: #1f8a55;
+    --good-soft: #e3f4ea;
+    --warn: #b7791f;
+    --bad: #c0392b;
+
+    --font-mark: "Orbitron", "Space Grotesk", system-ui, sans-serif;
+    --font-head: "Space Grotesk", "DM Sans", system-ui, sans-serif;
+    --font-body: "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --font-util: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
+
+    --step--1: 0.8125rem;
+    --step-0: 1rem;
+    --step-1: 1.1875rem;
+    --step-2: 1.5rem;
+    --step-3: 2rem;
+    --step-4: clamp(2.1rem, 4.6vw, 3.4rem);
+    --wrap: 1120px;
+  }
+
+  #saas-page { font-family: var(--font-body); font-size: var(--step-0); line-height: 1.6; color: var(--ink); }
+  #saas-page h1, #saas-page h2, #saas-page h3 { font-family: var(--font-head); line-height: 1.15; margin: 0; text-wrap: balance; letter-spacing: -0.01em; }
+  #saas-page p { margin: 0; }
+  #saas-page a { color: inherit; text-decoration: none; }
+
+  #saas-page .band { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  #saas-page .wrap { max-width: var(--wrap); margin-inline: auto; }
+  #saas-page .eyebrow { font-family: var(--font-util); font-size: var(--step--1); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+  #saas-page .lede { color: var(--muted); font-size: var(--step-1); max-width: 60ch; }
+  #saas-page .num { font-variant-numeric: tabular-nums; }
+
+  /* ---------- Hero ---------- */
+  #saas-page .hero {
+    background:
+      radial-gradient(900px 420px at 85% 10%, rgba(61,165,245,0.16), transparent 60%),
+      linear-gradient(var(--navy), var(--navy));
+    color: var(--on-navy);
+    padding-block: 56px 72px;
+    position: relative;
+    overflow: hidden;
+  }
+  #saas-page .hero::before {
+    content: "";
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(159,176,200,0.07) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(159,176,200,0.07) 1px, transparent 1px);
+    background-size: 32px 32px;
+    mask-image: linear-gradient(180deg, #000 0%, transparent 85%);
+    pointer-events: none;
+  }
+  #saas-page .hero-grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+    gap: 56px;
+    align-items: center;
+  }
+  #saas-page .hero h1 { font-size: var(--step-4); font-weight: 700; color: #fff; }
+  #saas-page .hero h1 em { font-style: normal; color: var(--electric); }
+  #saas-page .hero .lede { color: var(--on-navy-dim); margin-top: 20px; }
+  #saas-page .cta-row { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 32px; }
+  #saas-page .btn {
+    display: inline-flex; align-items: center; gap: 10px;
+    font-family: var(--font-head); font-weight: 600; font-size: 1rem;
+    padding: 14px 22px; border-radius: 10px; text-decoration: none;
+    transition: transform .15s ease, background-color .15s ease, border-color .15s ease;
+  }
+  #saas-page .btn:hover { transform: translateY(-1px); }
+  #saas-page .btn-primary { background: var(--electric); color: var(--navy); }
+  #saas-page .btn-primary:hover { background: #63b8f8; color: var(--navy); }
+  #saas-page .btn-ghost { border: 1px solid var(--navy-line); color: var(--on-navy); }
+  #saas-page .btn-ghost:hover { border-color: var(--on-navy-dim); color: var(--on-navy); }
+  #saas-page .hero-facts { display: flex; flex-wrap: wrap; gap: 8px 22px; margin-top: 28px; font-size: var(--step--1); color: var(--on-navy-dim); list-style: none; padding: 0; }
+  #saas-page .hero-facts li::before { content: "✓"; color: var(--electric); margin-right: 8px; font-weight: 700; }
+
+  /* The devis mock */
+  #saas-page .doc-stage { position: relative; }
+  #saas-page .doc {
+    background: var(--paper);
+    color: var(--paper-ink);
+    border-radius: 6px;
+    padding: 26px 26px 22px;
+    box-shadow: 0 30px 60px -20px rgba(0,0,0,0.55), 0 0 0 1px rgba(255,255,255,0.04);
+    transform: rotate(-1.2deg);
+    font-size: 0.8125rem;
+    position: relative;
+  }
+  #saas-page .doc-head { display: flex; justify-content: space-between; gap: 16px; align-items: flex-start; }
+  #saas-page .doc-co { font-weight: 700; font-size: 0.95rem; }
+  #saas-page .doc-co small { display: block; font-weight: 400; color: var(--paper-muted); font-size: 0.75rem; }
+  #saas-page .doc-title { text-align: right; }
+  #saas-page .doc-title b { font-family: var(--font-head); font-size: 1.05rem; letter-spacing: 0.04em; color: var(--electric-strong); }
+  #saas-page .doc-title small { display: block; color: var(--paper-muted); font-family: var(--font-util); font-size: 0.72rem; }
+  #saas-page .doc-client { margin-top: 16px; padding: 10px 12px; background: #f5f7fa; border-radius: 4px; font-size: 0.78rem; color: var(--paper-muted); }
+  #saas-page .doc-client b { color: var(--paper-ink); }
+  #saas-page .doc-table { width: 100%; border-collapse: collapse; margin-top: 14px; font-variant-numeric: tabular-nums; }
+  #saas-page .doc-table th { text-align: left; font-weight: 600; font-size: 0.68rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--paper-muted); border-bottom: 1px solid var(--paper-line); padding: 6px 4px; }
+  #saas-page .doc-table td { padding: 7px 4px; border-bottom: 1px solid var(--paper-line); vertical-align: top; }
+  #saas-page .doc-table .r { text-align: right; white-space: nowrap; }
+  #saas-page .doc-totals { margin-top: 12px; margin-left: auto; width: min(220px, 100%); font-variant-numeric: tabular-nums; }
+  #saas-page .doc-totals div { display: flex; justify-content: space-between; padding: 3px 0; color: var(--paper-muted); }
+  #saas-page .doc-totals .ttc { color: var(--paper-ink); font-weight: 700; font-size: 0.95rem; border-top: 2px solid var(--paper-ink); margin-top: 4px; padding-top: 6px; }
+  #saas-page .stamp {
+    position: absolute; right: 22px; top: 92px;
+    font-family: var(--font-head); font-weight: 700; font-size: 1.05rem; letter-spacing: 0.12em;
+    padding: 6px 12px; border: 3px solid currentColor; border-radius: 6px;
+    transform: rotate(-9deg);
+    color: var(--good);
+    background: rgba(255,255,255,0.8);
+    transition: color .3s ease;
+  }
+  #saas-page .stamp.is-sent { color: #1c6fc9; }
+  #saas-page .stamp.is-billed { color: #7a4fd0; }
+  #saas-page .stamp.is-paid { color: #1f8a55; }
+  #saas-page .stamp.pop { animation: saasPop .45s cubic-bezier(.2,1.4,.4,1); }
+  @keyframes saasPop { from { transform: rotate(-9deg) scale(1.35); opacity: .2; } to { transform: rotate(-9deg) scale(1); opacity: 1; } }
+  #saas-page .doc-flow { display: flex; gap: 6px; margin-top: 18px; flex-wrap: wrap; position: relative; }
+  #saas-page .doc-flow span {
+    font-family: var(--font-util); font-size: 0.72rem; letter-spacing: 0.04em;
+    padding: 5px 10px; border-radius: 999px;
+    border: 1px solid var(--navy-line); color: var(--on-navy-dim);
+    transition: background-color .3s ease, color .3s ease, border-color .3s ease;
+  }
+  #saas-page .doc-flow span.on { background: var(--electric); border-color: var(--electric); color: var(--navy); }
+  #saas-page .doc-note { font-size: 0.72rem; color: var(--on-navy-dim); margin-top: 10px; font-family: var(--font-util); }
+
+  /* ---------- Sections ---------- */
+  #saas-page section.band { padding-block: 88px; }
+  #saas-page .section-head { display: grid; gap: 14px; max-width: 720px; margin-bottom: 48px; }
+  #saas-page .section-head h2 { font-size: var(--step-3); }
+
+  #saas-page .journey { display: grid; gap: 0; position: relative; }
+  #saas-page .step {
+    display: grid;
+    grid-template-columns: 64px minmax(0, 1fr) minmax(0, 1fr);
+    gap: 28px;
+    padding-block: 32px;
+    border-top: 1px solid var(--line);
+    align-items: start;
+  }
+  #saas-page .step:last-child { border-bottom: 1px solid var(--line); }
+  #saas-page .step-n { font-family: var(--font-util); font-weight: 600; font-size: var(--step--1); color: var(--accent); letter-spacing: 0.06em; padding-top: 6px; }
+  #saas-page .step h3 { font-size: var(--step-2); }
+  #saas-page .step p { color: var(--muted); margin-top: 10px; max-width: 46ch; }
+  #saas-page .step ul { margin: 14px 0 0; padding: 0; list-style: none; display: grid; gap: 6px; font-size: 0.95rem; }
+  #saas-page .step li { padding-left: 20px; position: relative; }
+  #saas-page .step li::before { content: ""; position: absolute; left: 0; top: 0.62em; width: 8px; height: 8px; border-radius: 2px; background: var(--accent); }
+  #saas-page .step-visual { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 20px; }
+
+  #saas-page .voice { display: grid; gap: 12px; }
+  #saas-page .voice-quote { font-style: italic; color: var(--ink); border-left: 3px solid var(--accent); padding-left: 12px; font-size: 0.95rem; }
+  #saas-page .voice-arrow { font-family: var(--font-util); font-size: var(--step--1); color: var(--muted); }
+  #saas-page .voice-lines { display: grid; gap: 6px; font-size: 0.88rem; font-variant-numeric: tabular-nums; }
+  #saas-page .voice-lines div { display: flex; justify-content: space-between; gap: 12px; padding: 8px 10px; background: var(--accent-soft); border-radius: 6px; }
+  #saas-page .voice-lines div span:last-child { white-space: nowrap; color: var(--muted); }
+
+  #saas-page .convert { display: grid; grid-template-columns: 1fr auto 1fr; gap: 12px; align-items: center; }
+  #saas-page .mini-doc { border: 1px solid var(--line); border-radius: 8px; padding: 14px; font-size: 0.85rem; background: var(--bg); }
+  #saas-page .mini-doc b { display: block; font-family: var(--font-head); font-size: 0.95rem; }
+  #saas-page .mini-doc .k { color: var(--muted); font-family: var(--font-util); font-size: 0.72rem; }
+  #saas-page .mini-doc .v { font-variant-numeric: tabular-nums; font-weight: 600; margin-top: 6px; }
+  #saas-page .convert-arrow { font-family: var(--font-util); font-size: 0.75rem; color: var(--accent); text-align: center; line-height: 1.3; }
+  #saas-page .convert-arrow i { display: block; font-style: normal; font-size: 1.4rem; }
+  #saas-page .facturx { margin-top: 14px; display: flex; gap: 10px; align-items: center; font-size: 0.85rem; color: var(--muted); }
+  #saas-page .chip { font-family: var(--font-util); font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; padding: 3px 8px; border-radius: 4px; background: var(--accent-soft); color: var(--accent); white-space: nowrap; }
+
+  #saas-page .dun { display: grid; gap: 0; position: relative; }
+  #saas-page .dun-row { display: grid; grid-template-columns: 58px 1fr; gap: 14px; padding: 10px 0; position: relative; }
+  #saas-page .dun-row + .dun-row { border-top: 1px dashed var(--line); }
+  #saas-page .dun-day { font-family: var(--font-util); font-weight: 600; font-size: 0.85rem; color: var(--accent); }
+  #saas-page .dun-row b { display: block; font-size: 0.95rem; }
+  #saas-page .dun-row small { color: var(--muted); font-size: 0.82rem; line-height: 1.45; display: block; }
+  #saas-page .dun-row.hard .dun-day { color: var(--bad); }
+
+  #saas-page .chart-wrap { overflow-x: auto; }
+  #saas-page .chart-wrap svg { display: block; width: 100%; min-width: 300px; height: auto; }
+  #saas-page .chart-legend { display: flex; gap: 16px; flex-wrap: wrap; font-size: 0.8rem; color: var(--muted); margin-top: 8px; }
+  #saas-page .chart-legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+
+  /* ---------- Toolbox ---------- */
+  #saas-page .toolbox-band { background: var(--surface); border-block: 1px solid var(--line); }
+  #saas-page .tools { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px 36px; }
+  #saas-page .tool { display: grid; gap: 8px; align-content: start; }
+  #saas-page .tool svg { width: 28px; height: 28px; color: var(--accent); }
+  #saas-page .tool h3 { font-size: var(--step-1); }
+  #saas-page .tool p { color: var(--muted); font-size: 0.95rem; }
+
+  /* ---------- Pricing ---------- */
+  #saas-page .plans { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; align-items: stretch; }
+  #saas-page .plan { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 28px; display: grid; grid-template-rows: auto auto 1fr auto; gap: 16px; }
+  #saas-page .plan.featured { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); position: relative; }
+  #saas-page .plan .badge { position: absolute; top: -12px; left: 28px; background: var(--accent); color: #fff; font-family: var(--font-util); font-size: 0.7rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; padding: 4px 10px; border-radius: 999px; }
+  #saas-page .plan h3 { font-size: var(--step-2); }
+  #saas-page .plan .for { color: var(--muted); font-size: 0.9rem; margin-top: 4px; }
+  #saas-page .price { font-family: var(--font-head); font-size: 2.2rem; font-weight: 700; font-variant-numeric: tabular-nums; line-height: 1; }
+  #saas-page .price small { font-family: var(--font-body); font-size: 0.85rem; font-weight: 500; color: var(--muted); }
+  #saas-page .plan ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 9px; font-size: 0.93rem; align-content: start; }
+  #saas-page .plan li { padding-left: 24px; position: relative; }
+  #saas-page .plan li::before { content: "✓"; position: absolute; left: 0; color: var(--good); font-weight: 700; }
+  #saas-page .plan .seats { font-family: var(--font-util); font-size: 0.78rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 14px; }
+  #saas-page .plans-foot { margin-top: 22px; color: var(--muted); font-size: 0.9rem; display: flex; flex-wrap: wrap; gap: 8px 28px; }
+
+  /* ---------- Final ---------- */
+  #saas-page .final { background: var(--navy); color: var(--on-navy); }
+  #saas-page .final-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 56px; align-items: center; }
+  #saas-page .final h2 { font-size: var(--step-3); color: #fff; }
+  #saas-page .final .lede { color: var(--on-navy-dim); margin-top: 16px; }
+  #saas-page .final .eyebrow { color: var(--electric); }
+  #saas-page .visit { border: 1px solid var(--navy-line); border-radius: 14px; padding: 26px; background: var(--navy-soft); display: grid; gap: 12px; }
+  #saas-page .visit b { font-family: var(--font-head); font-size: var(--step-1); color: #fff; }
+  #saas-page .visit p { color: var(--on-navy-dim); font-size: 0.95rem; }
+  #saas-page .visit .price { color: #fff; font-size: 1.8rem; }
+  #saas-page .visit .price small { color: var(--on-navy-dim); }
+  #saas-page .contact-note { margin-top: 28px; font-size: 0.95rem; color: var(--on-navy-dim); }
+  #saas-page .contact-note b { color: #fff; font-weight: 600; }
+
+  @media (max-width: 920px) {
+    #saas-page .hero-grid, #saas-page .final-grid { grid-template-columns: 1fr; gap: 44px; }
+    #saas-page .step { grid-template-columns: 48px minmax(0, 1fr); }
+    #saas-page .step-visual { grid-column: 2; }
+    #saas-page .tools { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    #saas-page .plans { grid-template-columns: 1fr; max-width: 520px; }
+  }
+  @media (max-width: 560px) {
+    #saas-page section.band { padding-block: 64px; }
+    #saas-page .doc { transform: none; padding: 18px 14px; }
+    #saas-page .doc-table th:nth-child(3), #saas-page .doc-table td:nth-child(3) { display: none; }
+    #saas-page .stamp { top: 70px; right: 12px; font-size: 0.9rem; }
+    #saas-page .step { grid-template-columns: 1fr; gap: 14px; padding-block: 28px; }
+    #saas-page .step-visual { grid-column: 1; padding: 16px; }
+    #saas-page .tools { grid-template-columns: 1fr; gap: 28px; }
+    #saas-page .convert { grid-template-columns: 1fr; }
+    #saas-page .convert-arrow i { transform: rotate(90deg); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    #saas-page *, #saas-page *::before, #saas-page *::after { animation: none !important; transition: none !important; }
+  }
 </style>
 </head>
 <body>
@@ -88,91 +347,286 @@
     </div>
   </header>
 
-  <section style="background-color: #EDF1F7; background-image: radial-gradient(60% 55% at 8% 0%, rgba(61,165,245,.14), transparent 60%); padding: clamp(64px, 8vw, 110px) 24px;">
-    <div style="max-width: 1200px; margin: 0 auto;">
-      <p style="display: flex; align-items: center; gap: 9px; font-size: 12px; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; color: #1C6FC9; margin: 0;">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"></rect><path d="M7 9h10M7 13h6M7 17h4"></path></svg>
-        Notre SaaS
-      </p>
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 48px; align-items: start; margin-top: 16px;">
-        <div>
-          <h1 style="font-weight: 800; font-size: clamp(28px, 4.2vw, 48px); line-height: 1.1; letter-spacing: -.03em; color: #1A1F2B; margin: 0; max-width: 20ch;">Devis, factures, relances et comptabilité, sans y penser</h1>
-          <p style="font-size: 16px; line-height: 1.65; color: #5A6472; margin: 20px 0 0; max-width: 46ch;">Notre propre logiciel, pensé pour toute entreprise qui facture des clients. Créez un devis en quelques clics, transformez-le en facture conforme en un clic, laissez les relances partir seules aux bons délais, et suivez votre chiffre d'affaires grâce à une comptabilité intégrée avec graphique mensuel et annuel.</p>
-          <ul style="display: grid; gap: 12px; margin: 28px 0 0; padding: 0; list-style: none;">
-            <li style="display: flex; align-items: flex-start; gap: 10px; font-size: 15px; color: #1A1F2B;">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1C6FC9" stroke-width="2" style="flex: none; margin-top: 2px;" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"></path></svg>
-              Devis en dictée vocale, transcrit et structuré automatiquement
-            </li>
-            <li style="display: flex; align-items: flex-start; gap: 10px; font-size: 15px; color: #1A1F2B;">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1C6FC9" stroke-width="2" style="flex: none; margin-top: 2px;" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"></path></svg>
-              Factures conformes (Factur-X), générées depuis un devis accepté
-            </li>
-            <li style="display: flex; align-items: flex-start; gap: 10px; font-size: 15px; color: #1A1F2B;">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1C6FC9" stroke-width="2" style="flex: none; margin-top: 2px;" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"></path></svg>
-              Relances clients automatiques, avec escalade jusqu'à la mise en demeure
-            </li>
-            <li style="display: flex; align-items: flex-start; gap: 10px; font-size: 15px; color: #1A1F2B;">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1C6FC9" stroke-width="2" style="flex: none; margin-top: 2px;" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"></path></svg>
-              Comptabilité intégrée avec graphique mensuel et annuel, pour voir vos meilleurs mois d'un coup d'œil
-            </li>
-            <li style="display: flex; align-items: flex-start; gap: 10px; font-size: 15px; color: #1A1F2B;">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1C6FC9" stroke-width="2" style="flex: none; margin-top: 2px;" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"></path></svg>
-              Équipe et appareils gérés depuis un seul compte, à votre rythme
-            </li>
-          </ul>
-          <div style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px;">
-            <a href="https://app.lnewg.com/signup" target="_blank" rel="noopener" class="ln-btn-primary" style="display: inline-flex; align-items: center; gap: 10px; font-size: 15px; font-weight: 700; padding: 14px 24px; border-radius: 8px;">
-              Créer mon compte gratuit
-            </a>
-            <a href="https://app.lnewg.com/demo" target="_blank" rel="noopener" class="ln-btn-outline" style="display: inline-flex; align-items: center; font-size: 15px; font-weight: 600; padding: 13px 22px; border-radius: 8px;">
-              Essayer la démo
-            </a>
-          </div>
-          <p style="margin: 18px 0 0; font-size: 13.5px; color: #5A6472;">Démo sans inscription, avec des données d'exemple · 7 jours d'essai sur le forfait Master, carte bancaire demandée mais aucun débit avant la fin de l'essai.</p>
-        </div>
-        <div style="display: grid; gap: 14px;">
-          <div style="background: #FFFFFF; border: 1px solid #E1E5EC; border-radius: 12px; padding: 22px 24px;">
-            <div style="display: flex; align-items: baseline; justify-content: space-between;">
-              <h2 style="font-size: 16px; font-weight: 700; color: #1A1F2B; margin: 0;">Starter</h2>
-              <p style="margin: 0; font-size: 20px; font-weight: 800; color: #1A1F2B;">49,99&nbsp;€<span style="font-size: 12px; font-weight: 500; color: #5A6472;">/mois</span></p>
+  <div id="saas-page">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero band" id="top">
+      <div class="wrap">
+        <div class="hero-grid">
+          <div>
+            <p class="eyebrow">Devis · Factures · Relances</p>
+            <h1 style="margin-top:14px">Vous faites le devis. <em>Le reste suit tout seul.</em></h1>
+            <p class="lede">Un seul outil pour chiffrer un chantier, le facturer en un clic et se faire payer sans courir après les clients. Sur ordinateur comme sur téléphone, pensé pour les patrons du BTP qui n'ont pas le temps de faire de l'administratif le soir.</p>
+            <div class="cta-row">
+              <a class="btn btn-primary" href="https://app.lnewg.com/demo" target="_blank" rel="noopener">Essayer la démo, sans inscription →</a>
+              <a class="btn btn-ghost" href="#tarifs">Voir les tarifs</a>
             </div>
-            <p style="margin: 8px 0 0; font-size: 13.5px; color: #5A6472;">Devis et factures jusqu'à 5/mois, réglages essentiels.</p>
+            <ul class="hero-facts">
+              <li>7 jours d'essai complet</li>
+              <li>Sans engagement</li>
+              <li>Données hébergées en Europe</li>
+            </ul>
           </div>
-          <div style="background: #FFFFFF; border: 1.5px solid #3DA5F5; border-radius: 12px; padding: 22px 24px; position: relative;">
-            <span style="position: absolute; top: -10px; right: 20px; background: #3DA5F5; color: #0B1220; font-size: 11px; font-weight: 700; letter-spacing: .04em; padding: 3px 10px; border-radius: 999px;">Le plus choisi</span>
-            <div style="display: flex; align-items: baseline; justify-content: space-between;">
-              <h2 style="font-size: 16px; font-weight: 700; color: #1A1F2B; margin: 0;">Pro</h2>
-              <p style="margin: 0; font-size: 20px; font-weight: 800; color: #1A1F2B;">89,99&nbsp;€<span style="font-size: 12px; font-weight: 500; color: #5A6472;">/mois</span></p>
+
+          <div class="doc-stage" aria-label="Exemple de devis généré par l'application">
+            <div class="doc">
+              <div class="doc-head">
+                <div class="doc-co">Durand Rénovation<small>84700 Sorgues · SIRET 000 000 000 00000</small></div>
+                <div class="doc-title"><b>DEVIS</b><small>N° 2026-014 · 28/10/2026</small></div>
+              </div>
+              <div class="doc-client"><b>M. et Mme Rivière</b> · Rénovation salle de bain, 12 chemin des Oliviers</div>
+              <table class="doc-table">
+                <thead><tr><th>Désignation</th><th class="r">Qté</th><th class="r">PU HT</th><th class="r">Total HT</th></tr></thead>
+                <tbody>
+                  <tr><td>Dépose carrelage et faïence existants</td><td class="r">18 m²</td><td class="r">14,00 €</td><td class="r">252,00 €</td></tr>
+                  <tr><td>Fourniture et pose grès cérame 60×60</td><td class="r">18 m²</td><td class="r">52,00 €</td><td class="r">936,00 €</td></tr>
+                  <tr><td>Plinthes assorties</td><td class="r">14 ml</td><td class="r">9,50 €</td><td class="r">133,00 €</td></tr>
+                  <tr><td>Évacuation des gravats</td><td class="r">1 forfait</td><td class="r">180,00 €</td><td class="r">180,00 €</td></tr>
+                </tbody>
+              </table>
+              <div class="doc-totals">
+                <div><span>Total HT</span><span>1 501,00 €</span></div>
+                <div><span>TVA 10 % (rénovation)</span><span>150,10 €</span></div>
+                <div class="ttc"><span>Total TTC</span><span>1 651,10 €</span></div>
+              </div>
+              <div class="stamp" id="saas-stamp">ACCEPTÉ</div>
             </div>
-            <p style="margin: 8px 0 0; font-size: 13.5px; color: #5A6472;">Devis et factures illimités, relances automatiques.</p>
-          </div>
-          <div style="background: #FFFFFF; border: 1px solid #E1E5EC; border-radius: 12px; padding: 22px 24px;">
-            <div style="display: flex; align-items: baseline; justify-content: space-between;">
-              <h2 style="font-size: 16px; font-weight: 700; color: #1A1F2B; margin: 0;">Master</h2>
-              <p style="margin: 0; font-size: 20px; font-weight: 800; color: #1A1F2B;">119,99&nbsp;€<span style="font-size: 12px; font-weight: 500; color: #5A6472;">/mois</span></p>
+            <div class="doc-flow" id="saas-flow" aria-hidden="true">
+              <span data-s="sent">Envoyé</span>
+              <span data-s="ok" class="on">Accepté</span>
+              <span data-s="billed">Facturé</span>
+              <span data-s="paid">Payé</span>
             </div>
-            <p style="margin: 8px 0 0; font-size: 13.5px; color: #5A6472;">Tout Pro, comptabilité exportable et documents personnalisés.</p>
+            <p class="doc-note">Exemple fictif. Votre logo, vos couleurs, vos prix.</p>
           </div>
-          <p style="margin: 4px 0 0; font-size: 13px; color: #5A6472; text-align: center;">Sans engagement · -10% en facturation annuelle</p>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section style="background-color: #0B1220; background-image: radial-gradient(70% 60% at 92% 0%, rgba(61,165,245,.14), transparent 62%); padding: clamp(64px, 8vw, 110px) 24px;">
-    <div style="max-width: 900px; margin: 0 auto; text-align: center;">
-      <h2 style="font-weight: 800; font-size: clamp(24px, 3.4vw, 36px); line-height: 1.2; letter-spacing: -.02em; color: #FFFFFF; margin: 0;">Le même soin que pour nos automatisations sur mesure</h2>
-      <p style="font-size: 16px; line-height: 1.6; color: rgba(255,255,255,.68); margin: 18px auto 0; max-width: 56ch;">Notre SaaS n'est pas un logiciel générique de plus. C'est l'outil qu'on a construit en accompagnant des entrepreneurs qui perdaient du temps sur leurs devis et leurs relances — pensé pour être simple dès la première utilisation, sans formation nécessaire.</p>
-      <a href="https://calendly.com/contact-lnewg/30min" target="_blank" rel="noopener" class="ln-btn-primary" style="display: inline-flex; align-items: center; font-size: 15px; font-weight: 700; padding: 14px 24px; border-radius: 8px; margin-top: 30px;">Une question avant de vous lancer ? Discutons-en</a>
-    </div>
-  </section>
+    <!-- ================= JOURNEY ================= -->
+    <section class="band" id="chantier">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">La vie d'un chantier dans LNEWG</p>
+          <h2>Du premier rendez-vous au virement reçu, en quatre étapes</h2>
+          <p class="lede">Chaque étape reprend les informations de la précédente. Vous ne ressaisissez jamais deux fois la même chose.</p>
+        </div>
+
+        <div class="journey">
+          <!-- 1 -->
+          <article class="step">
+            <div class="step-n">ÉTAPE 1</div>
+            <div>
+              <h3>Le devis, en quelques minutes</h3>
+              <p>Tapez vos lignes, piochez dans votre catalogue de prix, ou dictez simplement le devis à voix haute en sortant de chez le client. L'application le met en forme pour vous.</p>
+              <ul>
+                <li>Catalogue de vos prix, réutilisable sur tous les devis</li>
+                <li>Vos unités : m², ml, forfait, heure, et les vôtres (sac, palette…)</li>
+                <li>Envoi au client par email avec un PDF à votre image</li>
+              </ul>
+            </div>
+            <div class="step-visual voice" aria-label="Exemple de dictée vocale transformée en lignes de devis">
+              <p class="voice-quote">« Dépose de l'ancien carrelage, dix-huit mètres carrés, puis pose du grès 60 par 60, et les plinthes, quatorze mètres. »</p>
+              <p class="voice-arrow">Dictée vocale ▸ lignes de devis prêtes à vérifier</p>
+              <div class="voice-lines">
+                <div><span>Dépose carrelage existant</span><span>18 m²</span></div>
+                <div><span>Pose grès cérame 60×60</span><span>18 m²</span></div>
+                <div><span>Plinthes assorties</span><span>14 ml</span></div>
+              </div>
+            </div>
+          </article>
+
+          <!-- 2 -->
+          <article class="step">
+            <div class="step-n">ÉTAPE 2</div>
+            <div>
+              <h3>La facture, en un clic</h3>
+              <p>Le client accepte le devis ? Un bouton suffit pour créer la facture. HT, TVA, TTC et date d'échéance sont calculés selon votre régime de TVA et votre délai de paiement.</p>
+              <ul>
+                <li>Facture générée directement depuis le devis accepté</li>
+                <li>Mentions obligatoires, SIRET et IBAN ajoutés automatiquement</li>
+                <li>Format Factur-X déjà intégré, celui de la facture électronique obligatoire</li>
+              </ul>
+            </div>
+            <div class="step-visual">
+              <div class="convert">
+                <div class="mini-doc"><span class="k">DEVIS 2026-014</span><b>Accepté</b><div class="v">1 651,10 € TTC</div></div>
+                <div class="convert-arrow"><i>→</i>1 clic</div>
+                <div class="mini-doc"><span class="k">FACTURE 2026-031</span><b>Échéance 27/11</b><div class="v">1 651,10 € TTC</div></div>
+              </div>
+              <div class="facturx"><span class="chip">FACTUR-X</span><span>Prêt pour la réforme : les TPE et PME devront émettre des factures électroniques à partir du 1er septembre 2027.</span></div>
+            </div>
+          </article>
+
+          <!-- 3 -->
+          <article class="step">
+            <div class="step-n">ÉTAPE 3</div>
+            <div>
+              <h3>Les relances, sans y penser</h3>
+              <p>Fini les appels gênants pour réclamer son argent. Si une facture n'est pas réglée à l'échéance, LNEWG relance votre client par email, chaque matin, avec un ton qui monte progressivement.</p>
+              <ul>
+                <li>Trois niveaux, envoyés automatiquement</li>
+                <li>Suivi de chaque relance envoyée, client par client</li>
+                <li>La relance s'arrête dès que la facture est marquée payée</li>
+              </ul>
+            </div>
+            <div class="step-visual dun" aria-label="Calendrier des relances automatiques après l'échéance">
+              <div class="dun-row"><span class="dun-day">J+1</span><div><b>Rappel courtois</b><small>Un petit mot pour signaler que l'échéance est passée.</small></div></div>
+              <div class="dun-row"><span class="dun-day">J+15</span><div><b>Relance ferme</b><small>Le montant dû et la demande de règlement rapide.</small></div></div>
+              <div class="dun-row hard"><span class="dun-day">J+30</span><div><b>Mise en demeure</b><small>Avec les mentions légales : pénalités de retard et indemnité forfaitaire de 40 € pour frais de recouvrement.</small></div></div>
+            </div>
+          </article>
+
+          <!-- 4 -->
+          <article class="step">
+            <div class="step-n">ÉTAPE 4</div>
+            <div>
+              <h3>Vos chiffres, toujours à jour</h3>
+              <p>Le tableau de bord montre ce qui est signé, facturé, encaissé et en retard. La comptabilité affiche votre chiffre d'affaires mois par mois et prépare l'export pour votre comptable.</p>
+              <ul>
+                <li>Chiffre d'affaires mensuel et annuel, meilleur et plus faible mois</li>
+                <li>Export PDF et archive de toutes les factures du mois</li>
+                <li>Historique complet de chaque client</li>
+              </ul>
+            </div>
+            <div class="step-visual">
+              <div class="chart-wrap"><svg id="saas-chart" viewBox="0 0 520 230" role="img" aria-label="Exemple de chiffre d'affaires hors taxes par mois, de janvier à octobre"></svg></div>
+              <div class="chart-legend">
+                <span><i style="background: var(--good)"></i>Meilleur mois</span>
+                <span><i style="background: var(--warn)"></i>Mois le plus faible</span>
+                <span>Données d'exemple, en k€ HT</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TOOLBOX ================= -->
+    <section class="band toolbox-band" id="plus">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Et aussi</p>
+          <h2>Tout ce qu'il faut pour une entreprise qui grandit</h2>
+        </div>
+        <div class="tools">
+          <div class="tool">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="2.5" width="10" height="19" rx="2" fill="none"/><path d="M11 18.5h2"/></svg>
+            <h3>Sur le chantier, depuis le téléphone</h3>
+            <p>L'application s'adapte à l'écran du téléphone. Faites un devis ou vérifiez une facture sans repasser au bureau.</p>
+          </div>
+          <div class="tool">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.2" fill="none"/><path d="M3 20c0-3.3 2.7-5.5 6-5.5s6 2.2 6 5.5"/><circle cx="17.5" cy="9" r="2.5" fill="none"/><path d="M16.5 14.6c2.6.2 4.5 2.2 4.5 4.9"/></svg>
+            <h3>Votre équipe, vos règles</h3>
+            <p>Ajoutez vos collaborateurs et choisissez ce que chacun voit : devis, factures, montants, comptabilité. Chaque document indique qui l'a créé.</p>
+          </div>
+          <div class="tool">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h10" /></svg>
+            <h3>Fichier clients centralisé</h3>
+            <p>Coordonnées, devis, factures et impayés de chaque client sur une seule fiche, avec tout l'historique.</p>
+          </div>
+          <div class="tool">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19l4-4 3 3 5-6 4 4" /><path d="M4 5v14h16" /></svg>
+            <h3>Documents à votre image</h3>
+            <p>Votre logo sur chaque devis et chaque facture. Avec le forfait Master, choisissez aussi les couleurs de vos documents.</p>
+          </div>
+          <div class="tool">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6l7-3z" fill="none"/><path d="M9 12l2 2 4-4"/></svg>
+            <h3>Données protégées</h3>
+            <p>Hébergement dans l'Union européenne, conforme au RGPD. Les données de chaque entreprise sont strictement séparées.</p>
+          </div>
+          <div class="tool">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none"/><path d="M12 7.5V12l3 2"/></svg>
+            <h3>Prise en main rapide</h3>
+            <p>Pas de formation de trois jours. Réglez votre SIRET, votre IBAN et votre logo une fois, et votre premier devis part dans la foulée.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PRICING ================= -->
+    <section class="band" id="tarifs">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Tarifs</p>
+          <h2>Trois forfaits, sans engagement</h2>
+          <p class="lede">Commencez par 7 jours d'essai sur le forfait le plus complet, puis gardez celui qui vous correspond.</p>
+        </div>
+        <div class="plans">
+          <article class="plan">
+            <div><h3>Starter</h3><p class="for">Pour démarrer et tester l'outil</p></div>
+            <p class="price num">49,99 €<small> HT / mois</small></p>
+            <ul>
+              <li>Tableau de bord</li>
+              <li>Fichier clients et catalogue de prix</li>
+              <li>5 devis ou factures par mois</li>
+              <li>Documents PDF avec votre logo</li>
+            </ul>
+            <p class="seats">1 utilisateur inclus</p>
+          </article>
+          <article class="plan featured">
+            <span class="badge">Le plus choisi</span>
+            <div><h3>Pro</h3><p class="for">Pour l'artisan qui facture chaque semaine</p></div>
+            <p class="price num">89,99 €<small> HT / mois</small></p>
+            <ul>
+              <li>Tout Starter</li>
+              <li>Devis et factures illimités</li>
+              <li>Relances clients automatiques</li>
+              <li>Unités de mesure personnalisées</li>
+            </ul>
+            <p class="seats">2 utilisateurs inclus</p>
+          </article>
+          <article class="plan">
+            <div><h3>Master</h3><p class="for">Pour l'entreprise avec une équipe</p></div>
+            <p class="price num">119,99 €<small> HT / mois</small></p>
+            <ul>
+              <li>Tout Pro</li>
+              <li>Comptabilité mensuelle et annuelle, export PDF</li>
+              <li>Graphique du chiffre d'affaires</li>
+              <li>Couleurs personnalisées sur vos documents</li>
+            </ul>
+            <p class="seats">3 utilisateurs inclus</p>
+          </article>
+        </div>
+        <div class="plans-foot">
+          <span>−10 % en paiement annuel</span>
+          <span>Utilisateur ou appareil supplémentaire : +5 € HT / mois</span>
+          <span>Résiliable en ligne à tout moment</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FINAL ================= -->
+    <section class="band final" id="essayer">
+      <div class="wrap final-grid">
+        <div>
+          <p class="eyebrow">À côté de chez vous</p>
+          <h2>Un logiciel, et quelqu'un pour vous aider à le lancer</h2>
+          <p class="lede">LNEWG est basé à Sorgues. Si vous le souhaitez, on se déplace dans votre entreprise pour configurer votre compte avec vous : vos prix, votre logo, vos premiers devis. Vous repartez avec un outil prêt à servir.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="https://app.lnewg.com/demo" target="_blank" rel="noopener">Ouvrir la démo →</a>
+            <a class="btn btn-ghost" href="https://app.lnewg.com/signup" target="_blank" rel="noopener">Démarrer l'essai de 7 jours</a>
+          </div>
+          <p class="contact-note">Une question ? Écrivez à <b>contact@lnewg.com</b></p>
+        </div>
+        <aside class="visit">
+          <b>Mise en route sur place</b>
+          <p>Configuration complète de votre compte, dans vos locaux, avec vous.</p>
+          <p class="price num">199 €<small> HT, une seule fois</small></p>
+          <p>En option. Vaucluse et départements limitrophes.</p>
+        </aside>
+      </div>
+    </section>
+
+  </div>
 
   <section id="contact" style="position: relative; background-color: #0B1220; background-image: linear-gradient(180deg, #0B1220 0%, #131E36 100%); padding: clamp(50px, 7vw, 90px) 24px clamp(46px, 6vw, 66px); overflow: hidden; border-top: 1px solid rgba(255,255,255,.09);">
     <div style="position: relative; max-width: 1200px; margin: 0 auto;">
       <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 14px;">
         <a href="mailto:contact@lnewg.com" class="ln-contact-link" style="display: inline-flex; align-items: center; gap: 9px; color: #FFFFFF; font-size: 15px; font-weight: 500; border-bottom: 1px solid rgba(255,255,255,.3); padding-bottom: 2px;">contact@lnewg.com</a>
       </div>
-      <div style="display: flex; flex-wrap: wrap; gap: 8px 20px; margin-top: 24px;">
+      <p style="margin: 18px 0 0; font-size: 12.5px; color: rgba(255,255,255,.35);">Exemples de devis, factures et chiffres fictifs.</p>
+      <div style="display: flex; flex-wrap: wrap; gap: 8px 20px; margin-top: 18px;">
         <a href="mentions-legales.html" style="font-size: 12.5px; color: rgba(255,255,255,.4);">Mentions légales</a>
         <a href="confidentialite.html" style="font-size: 12.5px; color: rgba(255,255,255,.4);">Politique de confidentialité</a>
       </div>
@@ -180,6 +634,67 @@
   </section>
 
 </div>
+
+<script>
+(function () {
+  // Monthly revenue chart, example data in k€ HT. One linear scale drives bars, ticks and labels.
+  var data = [
+    ["Jan", 8.2], ["Fév", 9.6], ["Mar", 11.4], ["Avr", 12.8], ["Mai", 14.1],
+    ["Juin", 15.3], ["Juil", 10.2], ["Août", 6.4], ["Sep", 13.7], ["Oct", 16.2]
+  ];
+  var svg = document.getElementById("saas-chart");
+  if (svg) {
+    var NS = "http://www.w3.org/2000/svg";
+    var W = 520, left = 36, right = 8, top = 22, bottom = 196, max = 20;
+    var y = function (v) { return bottom - (v / max) * (bottom - top); };
+    var slot = (W - left - right) / data.length, bw = slot * 0.58;
+    var vals = data.map(function (d) { return d[1]; });
+    var hi = Math.max.apply(null, vals), lo = Math.min.apply(null, vals);
+    var el = function (tag, attrs, text) {
+      var n = document.createElementNS(NS, tag);
+      for (var k in attrs) n.setAttribute(k, attrs[k]);
+      if (text != null) n.textContent = text;
+      svg.appendChild(n);
+      return n;
+    };
+    [0, 5, 10, 15, 20].forEach(function (t) {
+      el("line", { x1: left, x2: W - right, y1: y(t), y2: y(t), stroke: "var(--line)", "stroke-width": 1 });
+      el("text", { x: left - 8, y: y(t) + 4, "text-anchor": "end", "font-size": 11, fill: "var(--muted)", "font-family": "IBM Plex Mono, monospace" }, t);
+    });
+    data.forEach(function (d, i) {
+      var v = d[1], cx = left + slot * i + slot / 2;
+      var color = v === hi ? "var(--good)" : v === lo ? "var(--warn)" : "var(--accent)";
+      var op = (v === hi || v === lo) ? 1 : 0.55;
+      el("rect", { x: cx - bw / 2, y: y(v), width: bw, height: bottom - y(v), rx: 3, fill: color, "fill-opacity": op });
+      el("text", { x: cx, y: bottom + 18, "text-anchor": "middle", "font-size": 11, fill: "var(--muted)", "font-family": "DM Sans, sans-serif" }, d[0]);
+      if (v === hi || v === lo) {
+        el("text", { x: cx, y: y(v) - 6, "text-anchor": "middle", "font-size": 11, "font-weight": 600, fill: color, "font-family": "IBM Plex Mono, monospace" }, String(v).replace(".", ","));
+      }
+    });
+  }
+
+  // Hero stamp cycles through the job's statuses. Resting state ("Accepté") is already in the markup.
+  var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var stamp = document.getElementById("saas-stamp"), flow = document.getElementById("saas-flow");
+  if (!stamp || !flow || reduce) return;
+  var states = [
+    { s: "sent", label: "ENVOYÉ", cls: "is-sent" },
+    { s: "ok", label: "ACCEPTÉ", cls: "" },
+    { s: "billed", label: "FACTURÉ", cls: "is-billed" },
+    { s: "paid", label: "PAYÉ", cls: "is-paid" }
+  ];
+  var i = 1;
+  setInterval(function () {
+    i = (i + 1) % states.length;
+    var st = states[i];
+    stamp.textContent = st.label;
+    stamp.className = "stamp " + st.cls;
+    void stamp.offsetWidth;
+    stamp.classList.add("pop");
+    Array.prototype.forEach.call(flow.children, function (c) { c.classList.toggle("on", c.getAttribute("data-s") === st.s); });
+  }, 2200);
+})();
+</script>
 
 </body>
 </html>
