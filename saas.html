@@ -263,7 +263,14 @@
   #saas-page .chart-legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
 
   /* ---------- Toolbox ---------- */
-  #saas-page .toolbox-band { background: var(--surface); border-block: 1px solid var(--line); }
+  #saas-page .chantier-band { background: #EDF1F7; }
+  #saas-page .tarifs-band { background: #EDF1F7; }
+  #saas-page .toolbox-band { background: var(--navy); border-block: 1px solid var(--navy-line); }
+  #saas-page .toolbox-band .eyebrow { color: var(--electric); }
+  #saas-page .toolbox-band .section-head h2 { color: #fff; }
+  #saas-page .toolbox-band .tool svg { color: var(--electric); }
+  #saas-page .toolbox-band .tool h3 { color: #fff; }
+  #saas-page .toolbox-band .tool p { color: var(--on-navy-dim); }
   #saas-page .tools { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px 36px; }
   #saas-page .tool { display: grid; gap: 8px; align-content: start; }
   #saas-page .tool svg { width: 28px; height: 28px; color: var(--accent); }
@@ -404,7 +411,7 @@
     </section>
 
     <!-- ================= JOURNEY ================= -->
-    <section class="band" id="chantier">
+    <section class="band chantier-band" id="chantier">
       <div class="wrap">
         <div class="section-head">
           <p class="eyebrow">La vie d'un chantier dans LNEWG</p>
@@ -545,7 +552,7 @@
     </section>
 
     <!-- ================= PRICING ================= -->
-    <section class="band" id="tarifs">
+    <section class="band tarifs-band" id="tarifs">
       <div class="wrap">
         <div class="section-head">
           <p class="eyebrow">Tarifs</p>
